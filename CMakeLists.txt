@@ -34,7 +34,9 @@ project(my_cpp_project)
 add_subdirectory(vendor)
 add_subdirectory(library)
 add_subdirectory(executable)
-add_subdirectory(tests)
+
+# Uncomment the following line to include tests
+# add_subdirectory(tests)
 
 # Set the startup project for Visual Studio
 set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT MyExecutable)

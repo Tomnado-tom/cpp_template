@@ -14,9 +14,10 @@ This project is a C++ application that utilizes CMake for build management. It c
 ## Setup Instructions
 1. Ensure you have CMake installed on your system.
 2. Clone the repository:
-   ```
+   ```sh
    git clone <repository-url>
-   cd cpp_template
+   cd <repository-name>
+   #This will download googletest its off by default
    git submodule update --init --recursive
    ```
 3. Create a build directory:
