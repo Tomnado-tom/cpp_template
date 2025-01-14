@@ -35,7 +35,7 @@ add_subdirectory(vendor)
 add_subdirectory(library)
 add_subdirectory(executable)
 
-# Uncomment the following line to include tests
+# Uncomment the line below to include tests
 # add_subdirectory(tests)
 
 # Set the startup project for Visual Studio
