@@ -17,6 +17,7 @@ This project is a C++ application that utilizes CMake for build management. It c
    ```
    git clone <repository-url>
    cd cpp_template
+   git submodule update --init --recursive
    ```
 3. Create a build directory:
    ```

@@ -5,7 +5,7 @@
 
 namespace library
 {
-void library::testFunction()
+void testFunction()
 {
     std::cout << "Hello, C++ Project! from Library" << std::endl;
 }
