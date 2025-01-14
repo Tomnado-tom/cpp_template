@@ -17,7 +17,7 @@ This project is a C++ application that utilizes CMake for build management. It c
    ```sh
    git clone <repository-url>
    cd <repository-name>
-   #Optional. Will download googletest tests are comments in the CMakeLists by default.
+   #Optional. Will download googletest. tests are comments in the CMakeLists by default.
    git submodule update --init --recursive
    ```
 3. Create a build directory:
