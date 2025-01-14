@@ -16,7 +16,7 @@ This project is a C++ application that utilizes CMake for build management. It c
 2. Clone the repository:
    ```
    git clone <repository-url>
-   cd my-cpp-project
+   cd cpp_template
    ```
 3. Create a build directory:
    ```

@@ -5,4 +5,4 @@ project(vendor)
 
 # If you have any specific vendor libraries, you can include them here
 # add_library(SomeVendorLibrary STATIC IMPORTED)
-# set_target_properties(SomeVendorLibrary PROPERTIES IMPORTED_LOCATION ${CMAKE_CURRENT_SOURCE_DIR}/path/to/library)
+# set_target_properties(SomeVendorLibrary PROPERTIES FOLDER "Vendor") #Folder for VS Solution Explorer
