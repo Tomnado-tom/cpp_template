@@ -21,16 +21,16 @@ This project is a C++ application that utilizes CMake for build management. It c
    git submodule update --init --recursive
    ```
 3. Create a build directory:
-   ```
+   ```sh
    mkdir build
    cd build
    ```
 4. Run CMake to configure the project:
-   ```
+   ```sh
    cmake ..
    ```
 5. Build the project:
-   ```
+   ```sh
    cmake --build .
    ```
 
