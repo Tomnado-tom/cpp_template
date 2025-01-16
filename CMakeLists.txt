@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.28)
 #function to create source groups in the IDE
 function(create_source_groups root_folder)
     file(GLOB_RECURSE all_files
@@ -36,7 +36,7 @@ add_subdirectory(library)
 add_subdirectory(executable)
 
 # Uncomment the line below to include tests
-#add_subdirectory(tests)
+add_subdirectory(tests)
 
 # Set the startup project for Visual Studio
 set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT MyExecutable)
